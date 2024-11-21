@@ -6,6 +6,6 @@ COPY . .
 
 RUN pip install -r "requirements.txt"
 
-EXPOSE 5500
+EXPOSE 8080
 
 ENTRYPOINT ["python", "lbg.py"]
